@@ -3,8 +3,8 @@ from pynput import mouse
 def on_click(x, y, button, pressed):
     # 當按鍵被按下時
     if pressed:
-        print(f'在 ({x}, {y}) 位置按下了 {button}')
-
+        #print(f'在 ({x}, {y}) 位置按下了 {button}')
+        print(f'{x}, {y},{button}')
         # 檢查按下的按鈕是不是滑鼠中鍵
         if button == mouse.Button.middle:
             print('偵測到中鍵點擊，程式結束。')
