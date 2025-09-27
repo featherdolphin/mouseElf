@@ -28,7 +28,7 @@ except FileNotFoundError:
 # --- 新增區塊結束 ---
 
 
-print(f"成功從檔案載入 {len(click_point_list.txt)} 個座標。")
+print(f"成功從檔案載入 {len(click_point_list)} 個座標。")
 print("程式將在 3 秒後，開始執行連續點擊...")
 time.sleep(3)
 
