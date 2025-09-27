@@ -25,6 +25,7 @@ def move_mouse_in_background():
                 break
             
             pyautogui.moveTo(x, y, duration=0.5)
+            pyautogui.click()
             print(f"已將滑鼠移動到 ({x}, {y})。")
             time.sleep(1)
         
